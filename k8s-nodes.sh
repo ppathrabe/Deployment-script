@@ -11,8 +11,6 @@ sudo systemctl restart docker.service
 
 
 sudo wget https://raw.githubusercontent.com/lerndevops/labs/master/scripts/installCRIDockerd.sh -P /tmp
-
-
 sudo chmod 755 /tmp/installCRIDockerd.sh
 sudo bash /tmp/installCRIDockerd.sh
 sudo systemctl restart cri-docker.service
